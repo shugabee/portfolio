@@ -1,0 +1,103 @@
+.about-me-container {
+    height: 50vh;
+    width: 75vw;
+    margin: auto;
+    border: 5px solid rgb(242, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+}
+
+.about-me-info {
+    display: inline-block;
+    padding: 3px 30px 3px 30px;
+}
+
+.name {
+   padding: 0px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.skills-section {
+    margin-top: 50px;
+}
+
+.skills-icon {
+    height: 70px;
+    width: 70px;
+    padding: 6px;
+}
+
+.shelby-photo {
+    display: inline-block;
+    height: 50vh;
+    right: 0%;
+}
+
+@media screen and (max-width: 1481px) {
+    .about-me-container {
+        height: 40vh;
+    }
+    .shelby-photo {
+        height: 40vh;
+    }
+    .skills-icon {
+        height: 50px;
+        width: 50px;
+        padding: 3px
+    }
+}
+
+@media screen and (max-width: 1248px) {
+    .about-me-container {
+        height: 30vh;
+    }
+    .name {
+        font-size: 1.4em;
+    }
+    .occupation {
+        font-size: 1em;
+    }
+    .about-me-text {
+        font-size: .9em;
+    }
+    .shelby-photo {
+        height: 30vh;
+    }
+    .skills-icon {
+        height: 30px;
+        width: 30px;
+        padding: 2px;
+    }
+    .skills-section {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+    .about-me-container {
+        height: 60vh;
+        width: 60vw;
+        flex-direction: column;
+    }
+    .shelby-photo {
+        height: 25vh;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 619px) {
+    .shelby-photo {
+        height: 16vh;
+    }
+}
+
+@media screen and (max-width: 509px) {
+    .about-me-container{
+        height: 70vh;
+    }
+}

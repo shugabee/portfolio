@@ -1,0 +1,29 @@
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+
+a:hover {
+    color: rgb(234, 221, 221);
+}
+
+.nav-container a.active {
+    color: rgb(234, 221, 221);
+} 
+
+@media screen and (max-width: 509px) {
+    .nav-container{
+        flex-direction: column;
+        padding-top: 20px;
+    };
+    a {
+        font-size: 20px;
+    }
+}
