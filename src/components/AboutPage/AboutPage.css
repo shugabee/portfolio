@@ -1,5 +1,6 @@
 .about-me-container {
-    height: 50vh;
+    /* height: 50vh; */
+    height: auto;
     width: 75vw;
     margin: auto;
     border: 5px solid rgb(242, 235, 235);
@@ -39,9 +40,9 @@ h3 {
 }
 
 @media screen and (max-width: 1481px) {
-    .about-me-container {
+    /* .about-me-container {
         height: 40vh;
-    }
+    } */
     .shelby-photo {
         height: 40vh;
     }
@@ -53,9 +54,9 @@ h3 {
 }
 
 @media screen and (max-width: 1248px) {
-    .about-me-container {
+    /* .about-me-container {
         height: 30vh;
-    }
+    } */
     .name {
         font-size: 1.4em;
     }
@@ -80,7 +81,7 @@ h3 {
 
 @media screen and (max-width: 959px) {
     .about-me-container {
-        height: 60vh;
+        /* height: 60vh; */
         width: 60vw;
         flex-direction: column;
     }
@@ -99,5 +100,16 @@ h3 {
 @media screen and (max-width: 509px) {
     .about-me-container{
         height: 70vh;
+    }
+}
+
+@media screen and (max-height: 977px) {
+    .about-me-container {
+        height: auto;
+        width: 85vw;
+    }
+    .shelby-photo {
+        height: 12vh;
+        padding-top: 10px;
     }
 }

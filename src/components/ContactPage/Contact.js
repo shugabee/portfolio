@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../Nav/Nav";
 import "./Contact.css";
-import { CiMail } from "react-icons/ci";
+import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -11,8 +11,8 @@ const Contact = () => {
 
       <div className="contact-container">
         <div>
-          <CiMail size="50px" />
-        <p className="email-text">shelbylyn.webb@gmail.com</p>
+          <MdEmail size="50px" />
+          <p className="email-text">shelbylyn.webb@gmail.com</p>
         </div>
         <a href="https://github.com/shugabee" target="_blank" rel="noreferrer">
           <img

@@ -22,8 +22,8 @@ a:hover {
     .nav-container{
         flex-direction: column;
         padding-top: 20px;
-    };
+    }
     a {
-        font-size: 20px;
+        font-size: 30px;
     }
 }
