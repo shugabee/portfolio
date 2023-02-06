@@ -1,7 +1,7 @@
 h1 {
     padding-top: 10px;
     padding-bottom: 30px;
-
+    font-size: 4.5vw;
 }
 
 .projects-container {
@@ -9,28 +9,66 @@ h1 {
     justify-content: space-around;
     align-items: center;
     margin-top: 12%;
-}
-
-iframe {
-    padding-left: 5px;
-    padding-right: 5px;
+    margin-bottom: 20%;
 }
 
 .trail-project-container {
-    height: 65vh;
-    width: 35vw;
+    height: 140vh;
+    width: 40vw;
     border: 4px solid rgb(242, 235, 235);
 }
 
 .dino-project-container {
-    height: 65vh;
-    width: 35vw;
+    height: 140vh;
+    width: 40vw;
     border: 4px solid rgb(242, 235, 235);
+}
+
+.trail-iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.responsive-trail-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 97%;
+    height: 100%;
+    padding-left: 7px;
+}
+
+.dino-iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.responsive-dino-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 97%;
+    height: 100%;
+    padding-left: 7px;
 }
 
 .project-description-text {
     font-size: 24px;
-    padding: 35px;
+    padding: 40px;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .project-repo-link {
@@ -40,5 +78,42 @@ iframe {
 }
 
 .project-repo-link:hover {
+    color: rgb(234, 221, 221);
+}
+
+.project-site-link {
+    text-decoration: underline;
+    font-size: 22px;
     color: black;
+}
+
+.project-site-link:hover {
+    color: rgb(234, 221, 221);
+}
+
+@media screen and (max-width: 650px) {
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .trail-project-container {
+        width: 80vw;
+        height: 130vh;
+    }
+    .dino-project-container {
+        height: 130vh;
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .trail-project-container {
+        height: 150vh;
+        width: 80vw;
+    }
+    .dino-project-container {
+        height: 150vh;
+        width: 80vw;
+    }
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import Nav from "../Nav/Nav";
-import Footer from "../Footer/Footer";
 import Skills from "../Skills/Skills";
 import "./AboutPage.css";
 
@@ -8,7 +7,6 @@ const About = () => {
   return (
     <div>
       <Nav />
-      {/* <h1>About Me</h1> */}
       <div className="about-me-container">
         <div className="about-me-info">
           <h1 className="name">Shelby Webb</h1>
@@ -78,7 +76,7 @@ const About = () => {
             </div>
           </section>
         </div>
-        <div>
+        <div className="shelby-photo-container">
           <img
             className="shelby-photo"
             src="https://drive.google.com/uc?export=view&id=12so4i8RuI076mxfhktF0nfxsxTJ0w2PV"

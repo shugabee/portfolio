@@ -1,14 +1,16 @@
 .contact-container {
-    height: 35vh;
-    width: 70vw;
+    height: 60vh;
+    width: 80vw;
     /* background-color: rgb(248, 248, 247); */
     margin: auto;
     border: 5px solid rgb(242, 235, 235);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    /* justify-content: center; */
     align-items: center;
     margin-top: 17%;
-    gap: 90px;
+    margin-bottom: 20%;
+    gap: 100px;
 }
 
 .email-text {
@@ -26,24 +28,13 @@
     transition: .3s;
 }
 
-@media screen and (max-width: 961px) {
+@media screen and (max-width: 920px) {
     .contact-container {
-        gap: 30px;
-    }
-}
-
-@media screen and (max-width: 784px) {
-    .contact-container {
-        height: 65vh;
+        height: 105vh;
+        width: 60vw;
         display: flex;
         flex-direction: column;
         gap: 90px;
     }
 }
 
-@media screen and (max-height: 870px) {
-    .contact-container {
-        padding-top: 20px;
-        gap: 30px;
-    }
-}
