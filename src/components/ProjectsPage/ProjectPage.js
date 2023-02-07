@@ -76,6 +76,8 @@ const ProjectPage = () => {
             select a dino and location to create a responsive combintation.
             Users can also provide their own dinosaur image to be used.{" "}
           </p>
+
+          <div className="link-container">
           <a
             className="project-repo-link"
             href="https://github.com/shugabee/capstone-project"
@@ -84,9 +86,17 @@ const ProjectPage = () => {
           >
             GitHub Repo
           </a>
+          <a
+          className="project-site-link"
+          href="https://shugabee.github.io/capstone-project-dino/client/"
+          target="_blank"
+          >
+            Site
+          </a>
+          </div>
+          </div>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -14,7 +14,10 @@ const Contact = () => {
           <MdEmail size="50px" />
           <p className="email-text">shelbylyn.webb@gmail.com</p>
         </div>
-        <a href="https://github.com/shugabee" target="_blank" rel="noreferrer">
+        <a 
+        href="https://github.com/shugabee" 
+        target="_blank" 
+        rel="noreferrer">
           <img
             className="contact-icon"
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
@@ -26,8 +29,8 @@ const Contact = () => {
         href="https://docs.google.com/document/d/1uaQTTKbsxKYmTw1-EXxZq7FPQeOtwOPM1GEkCke81Xs/edit?usp=sharing" 
         target="_blank" 
         rel="noreferrer"
-        className="resume-text">
-          Resume 
+        >
+        <p className="resume-text">Resume</p> 
         </a>
         </div>
         <a

@@ -68,7 +68,7 @@ h1 {
 .link-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .project-repo-link {
@@ -91,7 +91,7 @@ h1 {
     color: rgb(234, 221, 221);
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 685px) {
     .projects-container {
         display: flex;
         flex-direction: column;

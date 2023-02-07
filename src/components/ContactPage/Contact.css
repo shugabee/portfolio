@@ -10,7 +10,7 @@
     align-items: center;
     margin-top: 17%;
     margin-bottom: 20%;
-    gap: 100px;
+    gap: 60px;
 }
 
 .email-text {
@@ -20,6 +20,13 @@
 
 .resume-text {
     font-size: 20px;
+    margin-top: 1px;
+}
+
+.resume-text:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    color: black;
 }
 
 .contact-icon {
@@ -34,8 +41,8 @@
 
 @media screen and (max-width: 920px) {
     .contact-container {
-        height: 105vh;
-        width: 60vw;
+        height: 140vh;
+        width: 55vw;
         display: flex;
         flex-direction: column;
         gap: 90px;
