@@ -73,7 +73,7 @@ const ProjectPage = () => {
           <p className="project-description-text">
             An application aimed at giving kids an opportunity to learn and
             navigate the computer while building a dinosaur! Users are able to
-            select a dino and location to create a responsive combintation.
+            select a dino and location to create a responsive combination.
             Users can also provide their own dinosaur image to be used.{" "}
           </p>
 
