@@ -26,7 +26,7 @@ const Contact = () => {
         <div>
           <MdArticle size="50px" />
         <a 
-        href="https://docs.google.com/document/d/1uaQTTKbsxKYmTw1-EXxZq7FPQeOtwOPM1GEkCke81Xs/edit?usp=sharing" 
+        href="https://docs.google.com/document/d/1q9FiFhlQiIFcVR3LguO9dB2-4TQwFpK0qGgR5Z7xfaA/edit?usp=sharing" 
         target="_blank" 
         rel="noreferrer"
         >

@@ -1,5 +1,8 @@
 import React from "react";
 import Nav from "../Nav/Nav";
+import buttermintsImage from '../../Images/buttermints.png';
+import pooltechImage from '../../Images/pooltech.png';
+import shakespeareImage from '../../Images/shakespeare.png';
 import "./ProjectPage.css";
 
 const ProjectPage = () => {
@@ -9,7 +12,88 @@ const ProjectPage = () => {
       {/* <h1>Projects</h1> */}
 
       <div className="projects-container">
-        <div className="trail-project-container">
+      <div className="single-project-container">
+          <h1>Buttermints</h1>
+          <div className="buttermints-image-container">
+            <img
+            className="project-image"
+            src={buttermintsImage}
+            alt="buttermints site image"
+            ></img>
+          </div>
+
+          <p className="project-description-text">
+            An eCommerce site for a homemade buttermints company built out of Utah. This site was created utilizing Wordpress Elementor, and PHP. Customers are able to add or remove items in their cart and purchase using WooCommerce. 
+          </p>
+
+          <div className="link-container">
+
+          <a
+          className="project-site-link"
+          href="https://www.buttermints.com/"
+          target="_blank"
+          >
+            Site
+          </a>
+          </div>
+
+        </div>
+
+        <div className="single-project-container">
+          <h1>Pool Tech</h1>
+          <div className="pooltech-image-container">
+            <img
+            className="project-image"
+            src={pooltechImage}
+            alt="pooltech site image"
+            ></img>
+          </div>
+
+          <p className="project-description-text">
+            This is the service website for a local pool company providing customers with service information and a way to contact the company. This site was built using Wordpress and PHP incorporating advanced custom fields.
+          </p>
+
+          <div className="link-container">
+
+          <a
+          className="project-site-link"
+          href="https://www.pooltech.flitchbeta.com/"
+          target="_blank"
+          >
+            Site
+          </a>
+          </div>
+
+        </div>
+
+        <div className="single-project-container">
+          <h1>Shakespeare Development</h1>
+          <div className="shakespeare-image-container">
+            <img
+            className="project-image"
+            src={shakespeareImage}
+            alt="shakespeare development site image"
+            ></img>
+          </div>
+
+          <p className="project-description-text">
+            A development company specializing in house and commercial properties. This site was built using WordPress and PHP enabling users to view previous developed properties or browse available homes and plans.
+          </p>
+
+          <div className="link-container">
+
+          <a
+          className="project-site-link"
+          href="https://www.buttermints.com/"
+          target="_blank"
+          >
+            Site
+          </a>
+          </div>
+
+        </div>
+
+        <div className="single-project-container">
           <h1>Trail Tracks</h1>
           <div className="trail-iframe-container">
           <iframe
@@ -54,7 +138,7 @@ const ProjectPage = () => {
 
         </div>
 
-        <div className="dino-project-container">
+        <div className="single-project-container">
           <h1>Let's Meet A Dinosaur</h1>
 
           <div className="dino-iframe-container">
