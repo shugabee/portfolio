@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.712c1342.css",
-    "main.js": "/portfolio/static/js/main.cc84d34f.js",
+    "main.js": "/portfolio/static/js/main.4a61fbf6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/pooltech.png": "/portfolio/static/media/pooltech.3849827093203a854c24.png",
     "static/media/shakespeare.png": "/portfolio/static/media/shakespeare.8af7654a4bac4dca3342.png",
     "static/media/buttermints.png": "/portfolio/static/media/buttermints.19e28c9d6923e66b3b2f.png",
     "index.html": "/portfolio/index.html",
     "main.712c1342.css.map": "/portfolio/static/css/main.712c1342.css.map",
-    "main.cc84d34f.js.map": "/portfolio/static/js/main.cc84d34f.js.map",
+    "main.4a61fbf6.js.map": "/portfolio/static/js/main.4a61fbf6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.712c1342.css",
-    "static/js/main.cc84d34f.js"
+    "static/js/main.4a61fbf6.js"
   ]
 }
