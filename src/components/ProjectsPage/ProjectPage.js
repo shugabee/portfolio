@@ -57,7 +57,7 @@ const ProjectPage = () => {
 
           <a
           className="project-site-link"
-          href="https://www.pooltech.flitchbeta.com/"
+          href="https://www.pooltechllc.com/"
           target="_blank"
           >
             Site
