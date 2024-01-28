@@ -100,7 +100,7 @@ p {
     width: 300px;
   }
 }
-@media screen and (max-height: 1100px) {
+@media screen and (min-height: 1100px) {
   .shelby-photo-container {
     text-align: center;
   }
