@@ -25,7 +25,8 @@
   position: relative;
   background-image: url("../../Images/paintimagegreen.jpg");
   /* background: linear-gradient(to right, #ff0000, #00ff00, #0000ff); */
-  background-size: 300% 100%;
+  /* background-size: 300% 100%; */
+  background-size: 300% 80%;
   /* background-size: cover; */
   /* background-position: center; */
   display: flex;

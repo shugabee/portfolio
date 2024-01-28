@@ -11,6 +11,7 @@
   display: flex;
   gap: 35px;
   padding: 30px;
+  list-style-type: none;
 }
 
 .logo h1 {
@@ -25,13 +26,6 @@ a {
 }
 
 a:hover {
-  /* color: rgb(234, 221, 221); */
-  /* color: #d3cecd; */
-  color: #d29f94;
-}
-
-.nav-container a.active {
-  /* color: rgb(234, 221, 221); */
   color: #d29f94;
 }
 

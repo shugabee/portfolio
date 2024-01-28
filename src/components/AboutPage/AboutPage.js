@@ -9,22 +9,24 @@ const About = () => {
         <section className="about-me-info">
           <h2>About Me</h2>
           <p className="about-me-text">
-            Occupational Therapist turned Web Developer, passionate about
-            crafting web solutions that meet clients' demands and boost their
-            online presence. Years of experience helping people of diverse
-            backgrounds and abilities navigate technology, coupled with a strong
-            passion for accessibility, have guided my journey.
+            As an Occupational Therapist turned Web Developer, I bring a unique
+            perspective to crafting web solutions that meet clients' needs. With
+            years of experience helping individuals of diverse abilities
+            navigate technology, I’m passionate about contributing to the
+            improvement of accessibility across various technologies.
             <br />
-            As a Web Developer proficient in WordPress, PHP, and React, I work
-            closely with clients to translate their visions into reality. My
-            focus extends beyond aesthetics to include optimizing websites for
-            search engines (SEO). I'm dedicated to helping businesses enhance
-            their online visibility and reach their target audiences
-            effectively.
             <br />
-            If you're seeking a developer who combines technical expertise with
-            a deep understanding of client needs and SEO strategies, let's
-            connect and explore how I can contribute to your digital success.
+            In my role as a Web Developer proficient in React, PHP, and
+            WordPress, I thrive on collaborating closely with clients to bring
+            their visions to life. My problem-solving skills, coupled with a
+            keen attention to detail, allow me to create robust and
+            user-friendly solutions.
+            <br />
+            <br />I am not just a developer; I am a dedicated professional who
+            understands the intersection of technology and user experience. If
+            you are seeking a developer who combines technical expertise with a
+            deep understanding of client needs, let's connect and explore how I
+            can contribute to your digital success.
           </p>
         </section>
 

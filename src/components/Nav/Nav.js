@@ -11,26 +11,36 @@ const Nav = () => {
   };
 
   return (
-    <div className="nav-container">
+    <nav className="nav-container">
       <div className="logo">
         <h1>Shelby Webb</h1>
       </div>
-      {/* <div className="nav-menu"> */}
-      <div className={`nav-menu ${showMobileMenu ? "show" : ""}`}>
-        {/* <NavLink to="/">Home</NavLink> */}
-        <HashLink to="/">Home</HashLink>
-        <HashLink to="/#about">About</HashLink>
-        <HashLink className="nav-link" to="/#projects">
-          Projects
-        </HashLink>
-        <HashLink className="nav-link" to="/#contact">
-          Contact
-        </HashLink>
-      </div>
+      <ul className={`nav-menu ${showMobileMenu ? "show" : ""}`}>
+        <li>
+          <HashLink smooth to="/" duration={800}>
+            Home
+          </HashLink>
+        </li>
+        <li>
+          <HashLink smooth to="/#about" duration={800}>
+            About
+          </HashLink>
+        </li>
+        <li>
+          <HashLink className="nav-link" smooth to="/#projects" duration={800}>
+            Projects
+          </HashLink>
+        </li>
+        <li>
+          <HashLink className="nav-link" smooth to="/#contact" duration={800}>
+            Contact
+          </HashLink>
+        </li>
+      </ul>
       {/* <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
         &#9776
       </div> */}
-    </div>
+    </nav>
   );
 };
 

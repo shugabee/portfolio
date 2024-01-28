@@ -51,12 +51,13 @@ h3 {
 @media screen and (max-width: 995px) {
   .skills-section {
     max-width: unset;
-    margin-top: 30px;
+    margin-top: 80px;
   }
 
   .about-me-container {
     flex-direction: column;
     align-items: center;
+    margin-top: 10em;
   }
   .shelby-photo {
     padding-top: 40px;
@@ -64,95 +65,8 @@ h3 {
   }
 }
 
-/* @media screen and (max-width: 1481px) {
-    .about-me-container {
-        height: auto;
-    } 
-    .about-me-info {
-        display: inline-block;
-        padding: 3px 20px 3px 20px;
-    }
-    .shelby-photo {
-        height: 70vh;
-    }
-    .skills-icon {
-        height: 50px;
-        width: 50px;
-        padding: 3px
-    }
-} */
-
-/* @media screen and (max-width: 1450px) {
-    .about-me-container {
-        height: auto;
-    } 
-    .shelby-photo {
-        height: 70vh;
-    }
-    .skills-icon {
-        height: 50px;
-        width: 50px;
-        padding: 3px
-    }
-} */
-
-/* @media screen and (max-width: 1248px) {
-    .about-me-container {
-        height: 30vh;
-    }
-    .name {
-        font-size: 1.4em;
-    }
-    .occupation {
-        font-size: 1em;
-    }
-    .about-me-text {
-        font-size: .9em;
-    }
-    .shelby-photo {
-        height: 30vh;
-    }
-    .skills-icon {
-        height: 30px;
-        width: 30px;
-        padding: 2px;
-    }
-    .skills-section {
-        margin-top: 10px;
-    }
-} */
-
-/* @media screen and (max-width: 959px) {
-    .about-me-container {
-        height: 60vh;
-        width: 60vw;
-        flex-direction: column;
-    }
-    .shelby-photo {
-        height: 25vh;
-        padding-top: 20px;
-    }
-} */
-
-/* @media screen and (max-width: 619px) {
-    .shelby-photo {
-        height: 16vh;
-    }
-} */
-
-/* @media screen and (max-width: 509px) {
-    .about-me-container{
-        height: 70vh;
-    }
-} */
-
-/* @media screen and (max-height: 977px) {
-    .about-me-container {
-        height: auto;
-        width: 85vw;
-    }
-    .shelby-photo {
-        height: 12vh;
-        padding-top: 10px;
-    }
-} */
+@media screen and (max-width: 655px) {
+  section {
+    padding: 0 5px;
+  }
+}
