@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <Nav />
-      <div className="home-container">
+      <div id="home" className="home-container">
         <div className="animated-background">
           <div className="home-info">
             <p>Hey, I'm Shelby!</p>

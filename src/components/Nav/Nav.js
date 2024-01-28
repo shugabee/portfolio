@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "./Nav.css";
 
 const Nav = () => {
@@ -16,14 +17,15 @@ const Nav = () => {
       </div>
       {/* <div className="nav-menu"> */}
       <div className={`nav-menu ${showMobileMenu ? "show" : ""}`}>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink className="nav-link" to="/projects">
+        {/* <NavLink to="/">Home</NavLink> */}
+        <HashLink to="/">Home</HashLink>
+        <HashLink to="/#about">About</HashLink>
+        <HashLink className="nav-link" to="/#projects">
           Projects
-        </NavLink>
-        <NavLink className="nav-link" to="/contact">
+        </HashLink>
+        <HashLink className="nav-link" to="/#contact">
           Contact
-        </NavLink>
+        </HashLink>
       </div>
       {/* <div className="mobile-menu-icon" onClick={toggleMobileMenu}>
         &#9776

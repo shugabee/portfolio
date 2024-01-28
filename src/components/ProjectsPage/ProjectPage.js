@@ -11,7 +11,7 @@ import "./ProjectPage.css";
 
 const ProjectPage = (props) => {
   return (
-    <div className="projects-page">
+    <div id="projects" className="projects-page">
       <h2>Projects</h2>
 
       <div className="projects-container">
