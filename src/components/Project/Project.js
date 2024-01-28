@@ -37,9 +37,11 @@ export const Project = (props) => {
             <a href={props.link} target="_blank">
               Website
             </a>
-            <a href={props.link} target="_blank">
-              Repo
-            </a>
+            {props.repolink && (
+              <a href={props.repolink} target="_blank">
+                Repo
+              </a>
+            )}
           </div>
         </div>
       ) : null}

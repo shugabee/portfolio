@@ -42,17 +42,22 @@ const ProjectPage = (props) => {
           title="Dutton Air Care"
           image={duttonImage}
           link="https://www.duttonaircare.com"
+          description="An app built using Wordpress and PHP providing content and contact information for an HVAC company."
         />
 
         <Project
           title="Trail Tracks"
           image={trailImage}
+          link="https://shugabee.github.io/mtn-bike-trails/"
+          repolink="https://github.com/shugabee/mtn-bike-trails"
           description="A React app designed for mountain bikers to track and add notes to their rides. Users are able to create an account where all of their info is stored. The app utilizes a trail API and a database to add, edit, and delete notes each time they ride a certain trail."
         />
 
         <Project
           title="Let's Meet a Dino"
           image={dinoImage}
+          link="https://shugabee.github.io/capstone-project-dino/client/"
+          repolink="https://github.com/shugabee/capstone-project-dino"
           description="An application aimed at giving kids the opportunity to learn and navigate the computer while building a dinosaur! Users are able to select a dino and location to create a responsive combination. Users can also provide thier own dino image to be used."
         />
       </div>
