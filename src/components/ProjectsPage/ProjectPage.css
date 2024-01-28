@@ -1,113 +1,167 @@
-h1 {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    font-size: 4vw;
+.projects-page {
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
 
 .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 12%;
-    margin-bottom: 20%;
-    row-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5em;
+  row-gap: 60px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 1.5em;
 }
 
 .single-project-container {
-    height: 140vh;
-    width: 40vw;
-    border: 2px solid rgb(242, 235, 235);
+  position: relative;
+  width: 40%;
+  height: auto;
+  /* height: 140vh; */
+  /* width: 40vw; */
+  /* border: 2px solid rgb(242, 235, 235); */
+  border-radius: 5px;
+  box-shadow: 0 3px 6px #0003;
+  padding: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.project-image-container {
+  height: 220px;
+  overflow: hidden;
 }
 
 .trail-iframe-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
 }
 
 .responsive-trail-frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 97%;
-    height: 100%;
-    padding-left: 7px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 97%;
+  height: 100%;
+  padding-left: 7px;
 }
 
 .dino-iframe-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
 }
 
 .responsive-dino-frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 97%;
-    height: 100%;
-    padding-left: 7px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 97%;
+  height: 100%;
+  padding-left: 7px;
 }
 
-.project-description-text {
-    font-size: 24px;
-    padding: 40px;
+.project-description-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #121212c1;
+  /* background-color: rgba(211, 182, 182, 0.796); */
+  /* transition: 0.4s all ease-in-out; */
+  /* transition: background-color 0.5s ease; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.9s ease backwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.description-text {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0 25px;
+}
+
+.description-links {
+  display: flex;
+  gap: 30px;
+
+  a {
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #d3cecd;
+    cursor: pointer;
+  }
+
+  p {
+    font-size: 1.4rem;
+    color: white;
+  }
 }
 
 .link-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .project-repo-link {
-    text-decoration: underline;
-    font-size: 22px;
-    color: black;
+  text-decoration: underline;
+  font-size: 22px;
+  color: black;
 }
 
 .project-repo-link:hover {
-    color: rgb(234, 221, 221);
+  color: rgb(234, 221, 221);
 }
 
 .project-site-link {
-    text-decoration: underline;
-    font-size: 22px;
-    color: black;
+  text-decoration: underline;
+  font-size: 22px;
+  color: black;
 }
 
 .project-site-link:hover {
-    color: rgb(234, 221, 221);
+  color: rgb(234, 221, 221);
 }
 
 .project-image {
-    width: 95%;
-    height: auto;
+  width: 95%;
+  height: auto;
 }
 
 @media screen and (max-width: 685px) {
-    .projects-container {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-    }
-    .single-project-container {
-        width: 80vw;
-        height: 130vh;
-    }
-}
-
-@media screen and (max-width: 315px) {
-    .single-project-container {
-        height: 150vh;
-        width: 80vw;
-    }
-
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .single-project-container {
+    width: 80vw;
+  }
 }

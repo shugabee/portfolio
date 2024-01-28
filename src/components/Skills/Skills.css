@@ -1,8 +1,3 @@
-.contact-container {
-  margin: 50px 0;
-  padding: 0 60px;
-}
-
 .contact-info {
   /* background-color: rgb(248, 248, 247); */
   /* border: 5px solid rgb(242, 235, 235); */
@@ -11,9 +6,8 @@
   /* justify-content: center; */
   align-items: center;
   gap: 60px;
-  margin-top: 2em;
+  margin-top: 5em;
 }
-
 .email-container {
   text-align: center;
 }
@@ -34,14 +28,14 @@
   color: black;
 }
 
-.contact-icon {
-  height: 140px;
-  width: 140px;
-}
-
 .github-icon {
   height: 100px;
   width: 100px;
+}
+
+.contact-icon {
+  height: 140px;
+  width: 140px;
 }
 
 .contact-icon:hover {
@@ -49,9 +43,12 @@
   transition: 0.3s;
 }
 
-@media screen and (max-width: 700px) {
-  .contact-info {
-    flex-wrap: wrap;
-    gap: 100px;
+@media screen and (max-width: 920px) {
+  .contact-container {
+    height: 140vh;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
   }
 }
