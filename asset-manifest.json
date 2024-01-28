@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.22d7c9f7.css",
-    "main.js": "/portfolio/static/js/main.a8b7521e.js",
+    "main.css": "/portfolio/static/css/main.151e4e4e.css",
+    "main.js": "/portfolio/static/js/main.1244a730.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/pooltech.png": "/portfolio/static/media/pooltech.3849827093203a854c24.png",
     "static/media/shakespeare.png": "/portfolio/static/media/shakespeare.8af7654a4bac4dca3342.png",
@@ -12,12 +12,12 @@
     "static/media/trailtracks.jpg": "/portfolio/static/media/trailtracks.e7b345a6fda994fa8694.jpg",
     "static/media/dino.jpg": "/portfolio/static/media/dino.c429c7bfe1390da998d4.jpg",
     "index.html": "/portfolio/index.html",
-    "main.22d7c9f7.css.map": "/portfolio/static/css/main.22d7c9f7.css.map",
-    "main.a8b7521e.js.map": "/portfolio/static/js/main.a8b7521e.js.map",
+    "main.151e4e4e.css.map": "/portfolio/static/css/main.151e4e4e.css.map",
+    "main.1244a730.js.map": "/portfolio/static/js/main.1244a730.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22d7c9f7.css",
-    "static/js/main.a8b7521e.js"
+    "static/css/main.151e4e4e.css",
+    "static/js/main.1244a730.js"
   ]
 }
