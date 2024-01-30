@@ -4,7 +4,7 @@ import Nav from "../Nav/Nav";
 import buttermintsImage from "../../Images/buttermints.png";
 import pooltechImage from "../../Images/pooltech.png";
 import shakespeareImage from "../../Images/shakespeare.png";
-import duttonImage from "../../Images/DuttonAir.png";
+import duttonImage from "../../Images/DuttonAirCare.png";
 import trailImage from "../../Images/trailtracks.jpg";
 import dinoImage from "../../Images/dino.jpg";
 import "./ProjectPage.css";
