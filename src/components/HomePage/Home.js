@@ -17,7 +17,7 @@ const Home = () => {
         <div className="animated-background">
           <div className="home-info">
             <p>Hey, I'm Shelby!</p>
-            <p>A Front End Web Developer</p>
+            <p>A Full Stack Web Developer</p>
             <div className="social-icon-container">
               <a
                 href="https://github.com/shugabee"
